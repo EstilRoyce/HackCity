@@ -1,0 +1,116 @@
+*body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100vh;
+   
+}
+
+
+section{
+    text-align: center;
+    height: 13.5rem;
+    width: 9.5em;
+    margin:0 auto 0 auto;
+    background-color:#eeeeee;
+    filter: drop-shadow(.1rem .1rem  #676767);
+}
+table{
+    margin-top: 0.5rem;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+
+h3{
+    text-align: center;
+    color: #185290;
+    position: absolute;
+    top:0.02rem;
+    left:.3rem;
+   
+    margin-top: .1rem;
+    font-size:.9rem;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+
+}
+.small>p{
+    margin: .3rem;
+    color:#eeeeee;
+}
+
+.small{
+    height:1.2rem;
+    width:9rem ;
+    margin: 0 auto 0 auto;
+    text-align: right;
+    background-color: #336699;
+    position: relative;
+    top:1.5rem;
+
+}
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    column-gap:2 rem;
+    text-align: center;
+    margin-top:30rem;
+
+    
+}
+
+.mall{
+    color: #185290;
+    background-color: #c8d8e8;
+    border-radius: .1rem;
+    font-size: .5rem;
+    border: .061rem solid #54595d;
+    width:1.5rem;
+    
+}
+.num{
+    background-color: #aec0d3;
+    border-radius: .1rem;
+    font-size: .5rem;
+    border: .03rem solid #336699;
+    width:1.5rem;
+}
+.symbol{
+    background-color: #ffffff;
+    border-radius: .1rem;
+    font-size: .5rem;
+    border: .03rem solid #a2bbd4;
+    width:1.5rem;
+}
+
+
+.rrad>label{
+    font-size: 0.5rem;
+    position: absolute;
+    top:3.4rem;
+    right:.2rem;
+    
+}
+.degg>label{
+    font-size: 0.5rem;
+    position: absolute;
+    top:3.34rem;
+    right:2.1rem;
+
+}
+
+input[type=radio]{
+    border:0;
+    width:.4rem;
+    position: relative;
+    right:.5rem;
+   
+   
+}
+input[type=radio]:hover{
+    background-color: blue;
+}
+
+  
