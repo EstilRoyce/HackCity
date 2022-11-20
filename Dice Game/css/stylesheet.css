@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+ 
+ .ddice{
+    display:flex;
+    flex-direction: row;
+    
+ }
+ .p1{
+    margin-left: 10rem;
+
+ }
+ .p2{
+    margin-right: 9rem;
+ }
+  
+  body {
+    background-color: #393E46;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+   
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
